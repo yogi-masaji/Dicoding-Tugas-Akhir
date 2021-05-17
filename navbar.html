@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+li, a, button {
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    box-shadow: 1px 2px 3px 1px rgba(97, 97, 97, 0.5);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0;
+}
+
+.nav-links li a:hover {
+    color: #f15a29;
+}
+
+    </style>
+</head>
+<body>
+    <body>
+    <header>
+        <img src="assets/images/logo-2.svg" class="logo" alt="logo" style="max-height: 100px ;width: 100px;">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="cta modal-btn" href="#"><button>Contacts</button></a>
+    </header>
+</body>
+</html>
